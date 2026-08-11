@@ -35,15 +35,29 @@
     </nav>
   </header>
 
-  <!-- ══ Hero ══ -->
+  <!-- ══ Hero — layered animated scene (dawn.gg style) ══ -->
   <section class="hero">
+    <div class="scene">
+      <div class="scene__sky"></div>
+      <div class="scene__stars"></div>
+      <div class="scene__flies" aria-hidden="true">
+        <span class="fly fly--1"><img src="assets/firefly-110.webp" alt=""></span>
+        <span class="fly fly--2"><img src="assets/firefly-110.webp" alt=""></span>
+        <span class="fly fly--3"><img src="assets/firefly-110.webp" alt=""></span>
+        <span class="fly fly--4"><img src="assets/firefly-110.webp" alt=""></span>
+        <span class="fly fly--5"><img src="assets/firefly-110.webp" alt=""></span>
+      </div>
+      <div class="scene__forest"></div>
+      <div class="scene__fade"></div>
+    </div>
+
     <div class="hero__inner">
-      <h1>THE <span class="accent">BEST</span><br>MINECRAFT<br>LAUNCHER</h1>
+      <img class="hero__mark" src="assets/zyvora-icon.png" alt="">
+      <h1 class="mcfont">THE <span class="accent">BEST</span> FREE<br>MINECRAFT LAUNCHER</h1>
       <ul class="hero__points">
         <li>✔ 100% free — no ads, no paywalls</li>
         <li>✔ One-click modpack installs</li>
         <li>✔ Microsoft login &amp; premium multiplayer</li>
-        <li>✔ Custom profiles for every playstyle</li>
         <li>✔ Auto-updates itself</li>
       </ul>
       <div class="hero__cta">
@@ -53,7 +67,7 @@
         </a>
         <a class="btn btn--blue" href="https://discord.gg/rt4MvndD7j" target="_blank" rel="noopener">JOIN THE DISCORD</a>
       </div>
-      <p class="hero__ver">Latest version: <strong data-latest-v>v1.1.0</strong> · Windows 10/11 (64-bit)</p>
+      <p class="hero__ver">Latest version: <strong data-latest-v>v1.1.2</strong> · Windows 10/11 (64-bit)</p>
     </div>
   </section>
 
@@ -79,7 +93,7 @@
   <!-- ══ Auto update strip ══ -->
   <section class="strip">
     <div class="strip__text">
-      <h2>ALWAYS UP TO DATE <span class="accent">AUTOMATICALLY</span></h2>
+      <h2 class="mcfont">ALWAYS UP TO DATE <span class="accent">AUTOMATICALLY</span></h2>
       <p>Zyvora checks for new releases every time it starts. When an update ships, it downloads and installs itself — you never have to hunt for a new installer again.</p>
     </div>
     <div class="strip__art">
@@ -94,7 +108,7 @@
 
   <!-- ══ Screenshot ══ -->
   <section class="inside" id="screenshots">
-    <h2>TAKE A LOOK INSIDE</h2>
+    <h2 class="mcfont">TAKE A LOOK INSIDE</h2>
     <div class="inside__frame">
       <img src="assets/launcher-home.png" alt="Zyvora Launcher home screen" loading="lazy">
     </div>
@@ -103,7 +117,7 @@
 
   <!-- ══ Download CTA ══ -->
   <section class="cta" id="download">
-    <h2>UP YOUR GAME</h2>
+    <h2 class="mcfont">UP YOUR GAME</h2>
     <div class="cta__btns">
       <a class="btn btn--dark" data-download href="https://github.com/Ayan-Bhai/zyvora-releases/releases/latest">
         <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M3 5.548 10.226 4.6v6.958H3V5.548zm0 12.904 7.226.948v-6.874H3v5.926zM11.026 19.5 21 20.7v-8.174h-9.974V19.5zm0-15.1v7.158H21V3.3l-9.974 1.1z"/></svg>
