@@ -140,14 +140,14 @@ h1, h2 {
 .scene__flies { position: absolute; inset: 0; overflow: hidden; }
 .fly { position: absolute; left: -140px; will-change: transform; }
 .fly img { width: 110px; height: auto; image-rendering: pixelated; filter: drop-shadow(0 0 14px rgba(255,205,60,0.45)); }
-.fly--1 { top: 18%; animation: fly-x 26s linear infinite,        fly-wander-a 9s  ease-in-out infinite; }
-.fly--2 { top: 36%; animation: fly-x 34s linear infinite 6s,     fly-wander-b 11s ease-in-out infinite .8s; }
+.fly--1 { top: 18%; animation: fly-x 52s linear infinite,        fly-wander-a 14s ease-in-out infinite; }
+.fly--2 { top: 36%; animation: fly-x 64s linear infinite 8s,     fly-wander-b 17s ease-in-out infinite .8s; }
 .fly--2 img { width: 72px; }
-.fly--3 { top: 56%; animation: fly-x 30s linear infinite 14s,    fly-wander-c 8s  ease-in-out infinite 1.6s; }
+.fly--3 { top: 56%; animation: fly-x 58s linear infinite 20s,    fly-wander-c 13s ease-in-out infinite 1.6s; }
 .fly--3 img { width: 88px; }
-.fly--4 { top: 10%; animation: fly-x 40s linear infinite 10s,    fly-wander-b 13s ease-in-out infinite .3s; }
+.fly--4 { top: 10%; animation: fly-x 74s linear infinite 14s,    fly-wander-b 19s ease-in-out infinite .3s; }
 .fly--4 img { width: 56px; opacity: .85; }
-.fly--5 { top: 66%; animation: fly-x 36s linear infinite 20s,    fly-wander-a 10s ease-in-out infinite 2.4s; }
+.fly--5 { top: 66%; animation: fly-x 68s linear infinite 30s,    fly-wander-a 16s ease-in-out infinite 2.4s; }
 .fly--5 img { width: 64px; opacity: .9; }
 /* 0→88% crossing the screen; 88→100% (~3s+) parked off-screen right before restart at left */
 @keyframes fly-x {
